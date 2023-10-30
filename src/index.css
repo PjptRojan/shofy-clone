@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Admin header icon */
+.user-menu::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -16px;
+    right: 71px;
+    transform: rotate(45deg);
+    border-top: 1px solid #E5E7EB;
+    border-left: 1px solid #E5E7EB;
+    background-color: white;
+}
